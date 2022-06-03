@@ -39,7 +39,9 @@ app.post("/",function(req,res)
             res.write("<h1>Maximum temperature is "+temp_max+" degrees Celcius</h1>");
             res.write("<h1>Pressure is "+pressure+"</h1>");
             res.write("<h1>Humidity is "+humidity+"%</h1>");
-            //res.write("<img src="+url+">");
+            
+		
+		//res.write("<img src="+url+">");
             res.send();
         });
     });
